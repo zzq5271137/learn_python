@@ -23,3 +23,20 @@ print("#########################################################################
 # from相对位置参数: "0"表示从文件开头, "1"表示从当前位置, "2"表示从文件末尾;
 # 在Python3中, 如果from的值不是0, 那么offset就必须为0;
 
+# demo1: 将文件指针定位到, 离文件开头位置偏移6个字符的地方
+print("demo1:")
+fp = open("05-file_tell_seek.txt", 'r', encoding='utf-8')
+fp.seek(6, 0)  # 将文件指针定位到, 离文件开头位置偏移6个字符的地方
+content = fp.read(5)
+print(content)
+fp.close()
+
+# demo2: 将文件指针定位到, 离文件末尾位置偏移5个字符的地方
+print("demo2:")
+fp = open("05-file_tell_seek.txt", 'r', encoding='utf-8')
+fp.seek(0, 2)  # 先把文件指针移动到文件末尾
+end = fp.tell()  # 获取当前位置(文件末尾位置)
+fp.seek(end - 5, 0)  # 将文件指针定位到, 离文件末尾位置偏移5个字符的地方
+content = fp.read(3)
+print(content)
+fp.close()
