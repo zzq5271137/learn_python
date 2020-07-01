@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a10e62-ca61-4ed6-88ab-782d1e57586e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12-模块和包/01-module_intro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-模块和包/my_package/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-模块和包/my_package/my_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-模块和包/my_package/my_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-模块和包/my_package/my_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/12-模块和包/my_package/my_request.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,6 +331,7 @@
       <workItem from="1593586556821" duration="2794000" />
       <workItem from="1593591473472" duration="24000" />
       <workItem from="1593593262350" duration="5183000" />
+      <workItem from="1593598647564" duration="170000" />
     </task>
     <servers />
   </component>
@@ -439,7 +437,7 @@
     <SUITE FILE_PATH="coverage/Learn_Python$04_input.coverage" NAME="04-input Coverage Results" MODIFIED="1592859208448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01-介绍" />
     <SUITE FILE_PATH="coverage/Learn_Python$02_list_traverse.coverage" NAME="02-list_traverse Coverage Results" MODIFIED="1593314855702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05-列表" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_helloworld.coverage" NAME="01_helloworld Coverage Results" MODIFIED="1591891423374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_介绍" />
-    <SUITE FILE_PATH="coverage/Learn_Python$01_module_intro.coverage" NAME="01-module_intro Coverage Results" MODIFIED="1593598435066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-模块和包" />
+    <SUITE FILE_PATH="coverage/Learn_Python$01_module_intro.coverage" NAME="01-module_intro Coverage Results" MODIFIED="1593598825985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-模块和包" />
     <SUITE FILE_PATH="coverage/Learn_Python$05_file_tell_seek__1_.coverage" NAME="05-file_tell_seek (1) Coverage Results" MODIFIED="1593414311017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09-文件基础" />
     <SUITE FILE_PATH="coverage/Learn_Python$03_object_access_control.coverage" NAME="03-object_access_control Coverage Results" MODIFIED="1593482576998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-面向对象" />
     <SUITE FILE_PATH="coverage/Learn_Python$11_object_polymorphism.coverage" NAME="11-object_polymorphism Coverage Results" MODIFIED="1593508430292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-面向对象" />
