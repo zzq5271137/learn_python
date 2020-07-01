@@ -19,3 +19,12 @@ def greet():
 
 greetstr, name, age = greet()  # 通过解组的方式获取返回值
 print("{}, {}, with age {}".format(greetstr, name, age))
+
+
+# 当函数不写return语句时, 其实它是有返回值的, 就是None(即相当于自动给你补一句"return None")
+def whatever():
+    print("whatever...")
+
+
+res = whatever()
+print(res)

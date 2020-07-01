@@ -22,7 +22,7 @@ class Person(object):  # object类是Python中所有类的基类
 
 
 # 创建对象
-p1 = Person(name='张三', age=18, style='文静')  # 自动调用__init__()构造方法
+p1 = Person(name='张三', age=18, style='文静')  # 当对象创建完毕(分配好内存空间)后, 自动调用__init__()构造方法去做初始化工作
 print("创建对象, p1={}".format(id(p1)))  # id()函数返回对象的唯一标识符, 标识符是一个整数
 p1.eat()
 p1.gender = '男'  # 在Python中, 也可以直接给对象添加属性(但也仅仅是这个对象有这个属性, 新创建的对象没有)
