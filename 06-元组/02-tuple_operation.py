@@ -25,3 +25,12 @@ print("name is %s, age is %d, address is %s." % (name, age, address))
 tuple4 = ('Math', 'English', 'Science', 'Art')
 subject1, _, _, subject2 = tuple4  # 有些时候我们只需要元组中的某个或某些值, 则剩下的值可以用"_"来占位(要注意元素个数和顺序)
 print("Subjects are: %s, %s." % (subject1, subject2))
+
+print("#####################################################")
+
+# 相加操作
+print("相加操作")
+tuplea = (1, 2)
+tupleb = (3, 4)
+tuplec = tuplea + tupleb
+print(tuplec)

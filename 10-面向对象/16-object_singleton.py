@@ -10,6 +10,7 @@
 class Calculator(object):
     __instance = None
 
+    # 这种写法的单例模式是线程不安全的; 如果想要线程安全的单例模式, 需要使用锁(之后会讲到);
     def __new__(cls, *args, **kwargs):  # 通过__new__()方法来实现单例模型
         if not cls.__instance:
             cls.__instance = super().__new__(cls)
