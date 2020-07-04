@@ -26,3 +26,12 @@ list_num = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 list_num_reverse = list_num[-1::-1]
 print(list_num)
 print(list_num_reverse)
+
+print("####################################################")
+
+# 列表的解组操作: 和元组的解组操作非常像
+print("列表的解组操作")
+student_attr = ['zzq', 27, '820064']
+print('student_attr = %s' % student_attr)
+student_name, student_age, student_id = student_attr
+print('学生姓名: %s, 学生年龄: %d, 学生学号: %s' % (student_name, student_age, student_id))
