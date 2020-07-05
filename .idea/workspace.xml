@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a10e62-ca61-4ed6-88ab-782d1e57586e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/15-虚拟环境/01-virtualenv_intro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15-虚拟环境/02-virtualenvwrapper_intro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-迭代器/01-Iterable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-迭代器/02-iterator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-迭代器/03-my_iterable_iterator_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-迭代器/04-my_iterable_iterator_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-虚拟环境/01-virtualenv_intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/15-虚拟环境/01-virtualenv_intro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/12-模块和包" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/16-迭代器" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -54,20 +59,20 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包" />
-      <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包\loop_reference" />
-      <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包\import_principle" />
-      <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包\my_package\my_inner_package" />
-      <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包\my_package" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包\my_package\my_inner_package" />
       <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包\my_package" />
       <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\PyCharm_workspace\Learn_Python\16-迭代器" />
+      <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包" />
+      <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包\loop_reference" />
+      <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包\import_principle" />
+      <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包\my_package\my_inner_package" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.06-demo_pet_home">
+  <component name="RunManager" selected="Python.04-my_iterable_iterator_2">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
@@ -172,7 +177,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="01-list_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="01-Iterable_iterator_intro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learn_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,12 +185,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14-知识点补充" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16-迭代器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="H:\PyCharm_workspace\Learn_Python\14-知识点补充\01-list_generator.py" />
+      <option name="SCRIPT_NAME" value="H:\PyCharm_workspace\Learn_Python\16-迭代器\01-Iterable_iterator_intro.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03-list_operation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02-iterator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learn_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,12 +207,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05-列表" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16-迭代器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05-列表/03-list_operation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16-迭代器/02-iterator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,7 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04-property" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03-my_iterable_iterator_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learn_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,12 +229,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14-基础知识点补充" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16-迭代器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14-基础知识点补充/04-property.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16-迭代器/03-my_iterable_iterator_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,7 +243,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05-__doc__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03-my_iterable_iterator_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learn_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,12 +251,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14-基础知识点补充" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16-迭代器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14-基础知识点补充/05-__doc__.py" />
+      <option name="SCRIPT_NAME" value="H:\PyCharm_workspace\Learn_Python\16-迭代器\03-my_iterable_iterator_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,7 +265,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="06-demo_pet_home" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04-my_iterable_iterator_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learn_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,12 +273,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14-基础知识点补充" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16-迭代器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14-基础知识点补充/06-demo_pet_home.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16-迭代器/04-my_iterable_iterator_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,11 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.06-demo_pet_home" />
+        <item itemvalue="Python.04-my_iterable_iterator_2" />
+        <item itemvalue="Python.03-my_iterable_iterator_1 (1)" />
+        <item itemvalue="Python.03-my_iterable_iterator_1" />
+        <item itemvalue="Python.02-iterator" />
         <item itemvalue="Python.practise" />
-        <item itemvalue="Python.03-list_operation" />
-        <item itemvalue="Python.05-__doc__" />
-        <item itemvalue="Python.04-property" />
       </list>
     </recent_temporary>
   </component>
@@ -365,6 +370,9 @@
       <workItem from="1593834205007" duration="217000" />
       <workItem from="1593834787948" duration="15221000" />
       <workItem from="1593876985782" duration="6929000" />
+      <workItem from="1593915551377" duration="4253000" />
+      <workItem from="1593920635497" duration="4749000" />
+      <workItem from="1593948951459" duration="9006000" />
     </task>
     <servers />
   </component>
@@ -388,30 +396,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592859180935" />
-    <state x="758" y="245" key="FileChooserDialogImpl" timestamp="1593596800292">
+    <state x="758" y="245" key="FileChooserDialogImpl" timestamp="1593920444040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="758" y="245" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593596800292" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1593884804304">
+    <state x="758" y="245" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593920444040" />
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1593958587004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593884804304" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1593884804304">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593958587004" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1593958587004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593884804304" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1593884804304">
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593958587004" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1593958587004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593884804304" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1593884804304">
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593958587004" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1593958587004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593884804304" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593958587004" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1593686213198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -432,20 +440,20 @@
     </state>
     <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593096129754" />
     <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593686213198" />
-    <state x="148" y="41" width="1605" height="950" key="SettingsEditor" timestamp="1593877436119">
+    <state x="414" y="149" width="1226" height="732" key="SettingsEditor" timestamp="1593920783463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="236" y="30" width="1129" height="759" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592644679307" />
-    <state x="148" y="41" width="1605" height="950" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593877436119" />
+    <state x="414" y="149" width="1226" height="732" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593920783463" />
     <state x="332" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593864133115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="332" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593864133115" />
-    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1593855930743">
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1593956984560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591892426092" />
-    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593855930743" />
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593956984560" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Learn_Python$10_func_lambda.coverage" NAME="10-func_lambda Coverage Results" MODIFIED="1593396867215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-函数" />
@@ -497,6 +505,7 @@
     <SUITE FILE_PATH="coverage/Learn_Python$principle_a.coverage" NAME="principle_a Coverage Results" MODIFIED="1593670418694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-模块和包/import_principle" />
     <SUITE FILE_PATH="coverage/Learn_Python$13_object_class_static_method.coverage" NAME="13-object_class_static_method Coverage Results" MODIFIED="1593512626345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-面向对象" />
     <SUITE FILE_PATH="coverage/Learn_Python$04_dict_method_2.coverage" NAME="04-dict_method_2 Coverage Results" MODIFIED="1593332544147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-字典" />
+    <SUITE FILE_PATH="coverage/Learn_Python$04_my_iterable_iterator_2.coverage" NAME="04-my_iterable_iterator_2 Coverage Results" MODIFIED="1593958267403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16-迭代器" />
     <SUITE FILE_PATH="coverage/Learn_Python$07_file_demo_1.coverage" NAME="07-file_demo_1 Coverage Results" MODIFIED="1593423795953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09-文件基础" />
     <SUITE FILE_PATH="coverage/Learn_Python$08_object_private.coverage" NAME="08-object_private Coverage Results" MODIFIED="1593498808162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-面向对象" />
     <SUITE FILE_PATH="coverage/Learn_Python$10_func_lambda__1_.coverage" NAME="10-func_lambda (1) Coverage Results" MODIFIED="1593398618799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-函数" />
@@ -508,6 +517,7 @@
     <SUITE FILE_PATH="coverage/Learn_Python$02_file_open_mode.coverage" NAME="02-file_open_mode Coverage Results" MODIFIED="1593401848856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09-文件基础" />
     <SUITE FILE_PATH="coverage/Learn_Python$09_for_demo_1.coverage" NAME="09-for_demo_1 Coverage Results" MODIFIED="1593095747816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-循环" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_func.coverage" NAME="01-func Coverage Results" MODIFIED="1593333976731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-函数" />
+    <SUITE FILE_PATH="coverage/Learn_Python$02_iterator.coverage" NAME="02-iterator Coverage Results" MODIFIED="1593954460486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16-迭代器" />
     <SUITE FILE_PATH="coverage/Learn_Python$11_str_encode_decode.coverage" NAME="11-str_encode_decode Coverage Results" MODIFIED="1593265113793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-字符串" />
     <SUITE FILE_PATH="coverage/Learn_Python$03_while_demo_2.coverage" NAME="03-while_demo_2 Coverage Results" MODIFIED="1593092722870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-循环" />
     <SUITE FILE_PATH="coverage/Learn_Python$05_func_return.coverage" NAME="05-func_return Coverage Results" MODIFIED="1593530005447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-函数" />
@@ -519,6 +529,7 @@
     <SUITE FILE_PATH="coverage/Learn_Python$15_object_singleton.coverage" NAME="15-object_singleton Coverage Results" MODIFIED="1593566905767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-面向对象" />
     <SUITE FILE_PATH="coverage/Learn_Python$02_while_demo.coverage" NAME="02-while_demo Coverage Results" MODIFIED="1593092348554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-循环" />
     <SUITE FILE_PATH="coverage/Learn_Python$05_import_principle.coverage" NAME="05-import_principle Coverage Results" MODIFIED="1593681692329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-模块和包" />
+    <SUITE FILE_PATH="coverage/Learn_Python$01_Iterable__1_.coverage" NAME="01-Iterable (1) Coverage Results" MODIFIED="1593953491174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16-迭代器" />
     <SUITE FILE_PATH="coverage/Learn_Python$04_input.coverage" NAME="04-input Coverage Results" MODIFIED="1592859208448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01-介绍" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_helloworld.coverage" NAME="01_helloworld Coverage Results" MODIFIED="1591891423374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_介绍" />
     <SUITE FILE_PATH="coverage/Learn_Python$02_ternary_operator.coverage" NAME="02-ternary_operator Coverage Results" MODIFIED="1593834803286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14-基础知识点补充" />
@@ -532,10 +543,11 @@
     <SUITE FILE_PATH="coverage/Learn_Python$06_str_method_1.coverage" NAME="06-str_method_1 Coverage Results" MODIFIED="1593223284157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-字符串" />
     <SUITE FILE_PATH="coverage/Learn_Python$02_comment.coverage" NAME="02_comment Coverage Results" MODIFIED="1591892252770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_介绍" />
     <SUITE FILE_PATH="coverage/Learn_Python$05_object_del.coverage" NAME="05-object_del Coverage Results" MODIFIED="1593495998553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-面向对象" />
+    <SUITE FILE_PATH="coverage/Learn_Python$03_my_iterable_iterator_1__1_.coverage" NAME="03-my_iterable_iterator_1 (1) Coverage Results" MODIFIED="1593957162487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16-迭代器" />
     <SUITE FILE_PATH="coverage/Learn_Python$10_raw_str__1_.coverage" NAME="10-raw_str (1) Coverage Results" MODIFIED="1593263146847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-字符串" />
     <SUITE FILE_PATH="coverage/Learn_Python$05_file_tell.coverage" NAME="05-file_tell Coverage Results" MODIFIED="1593410752259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09-文件基础" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_module_basic.coverage" NAME="01-module_basic Coverage Results" MODIFIED="1593598091858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-模块和包" />
-    <SUITE FILE_PATH="coverage/Learn_Python$practise.coverage" NAME="practise Coverage Results" MODIFIED="1593866678510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise" />
+    <SUITE FILE_PATH="coverage/Learn_Python$practise.coverage" NAME="practise Coverage Results" MODIFIED="1593953869563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise" />
     <SUITE FILE_PATH="coverage/Learn_Python$03_tuple_method.coverage" NAME="03-tuple_method Coverage Results" MODIFIED="1593326387847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-元组" />
     <SUITE FILE_PATH="coverage/Learn_Python$08_object_super.coverage" NAME="08-object_super Coverage Results" MODIFIED="1593574868235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-面向对象" />
     <SUITE FILE_PATH="coverage/Learn_Python$06_demo_pet_home.coverage" NAME="06-demo_pet_home Coverage Results" MODIFIED="1593879577474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14-基础知识点补充" />
@@ -545,6 +557,7 @@
     <SUITE FILE_PATH="coverage/Learn_Python$06_type_convert.coverage" NAME="06-type_convert Coverage Results" MODIFIED="1592862820042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01-介绍" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_list.coverage" NAME="01-list Coverage Results" MODIFIED="1593314764879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05-列表" />
     <SUITE FILE_PATH="coverage/Learn_Python$03_getter_setter.coverage" NAME="03-getter_setter Coverage Results" MODIFIED="1593838802466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14-基础知识点补充" />
+    <SUITE FILE_PATH="coverage/Learn_Python$01_iterator_Iterable_intro__1_.coverage" NAME="01-iterator_Iterable_intro (1) Coverage Results" MODIFIED="1593950278765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16-迭代器" />
     <SUITE FILE_PATH="coverage/Learn_Python$02_str_concat.coverage" NAME="02-str_concat Coverage Results" MODIFIED="1593154522574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-字符串" />
     <SUITE FILE_PATH="coverage/Learn_Python$12_object_class_attribute.coverage" NAME="12-object_class_attribute Coverage Results" MODIFIED="1593510607019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-面向对象" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_exception_1__1_.coverage" NAME="01-exception_1 (1) Coverage Results" MODIFIED="1593585375289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11-异常" />
@@ -559,9 +572,11 @@
     <SUITE FILE_PATH="coverage/Learn_Python$08_file_demo_2.coverage" NAME="08-file_demo_2 Coverage Results" MODIFIED="1593424867982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09-文件基础" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_file_basic.coverage" NAME="01-file_basic Coverage Results" MODIFIED="1593400623280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09-文件基础" />
     <SUITE FILE_PATH="coverage/Learn_Python$04_property.coverage" NAME="04-property Coverage Results" MODIFIED="1593862371482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14-基础知识点补充" />
+    <SUITE FILE_PATH="coverage/Learn_Python$01_iterator_intro.coverage" NAME="01-iterator_intro Coverage Results" MODIFIED="1593950200011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16-迭代器" />
     <SUITE FILE_PATH="coverage/Learn_Python$11_func_lambda_practise.coverage" NAME="11-func_lambda_practise Coverage Results" MODIFIED="1593399922050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-函数" />
     <SUITE FILE_PATH="coverage/Learn_Python$05_dict_traverse.coverage" NAME="05-dict_traverse Coverage Results" MODIFIED="1593333303960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-字典" />
     <SUITE FILE_PATH="coverage/Learn_Python$06_continue.coverage" NAME="06-continue Coverage Results" MODIFIED="1593094709584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-循环" />
+    <SUITE FILE_PATH="coverage/Learn_Python$03_my_iterable_iterator.coverage" NAME="03-my_iterable_iterator Coverage Results" MODIFIED="1593956736326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16-迭代器" />
     <SUITE FILE_PATH="coverage/Learn_Python$04_object_demo.coverage" NAME="04-object_demo Coverage Results" MODIFIED="1593485743587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-面向对象" />
     <SUITE FILE_PATH="coverage/Learn_Python$loop_a.coverage" NAME="loop_a Coverage Results" MODIFIED="1593681023301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-模块和包/loop_reference" />
   </component>
