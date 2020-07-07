@@ -28,4 +28,4 @@ def add_article(title, content):
 
 
 edit_user('zzq')
-add_article('我是标题', '我是内容')
+add_article(title='我是标题', content='我是内容')
