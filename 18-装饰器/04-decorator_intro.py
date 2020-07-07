@@ -116,9 +116,13 @@ def add_article_3():
     print("文章添加成功")
 
 
-# 这里就不是普普通通的调用edit_user_3()函数了; 当edit_user_3()函数的上面标注了一个login_required_3装饰器,
-# 那么当执行edit_user_3()函数时, 它会自动地将edit_user_3()函数的引用传给login_required_3()函数,
-# 然后login_required_3()函数返回一个闭包, 再运行这个闭包, 即, login_required_3(edit_user_3)(), 这种调用方式;
+"""
+装饰器函数的调用时机:
+这里就不是普普通通的调用edit_user_3()函数了; 当edit_user_3()函数的上面标注了一个login_required_3装饰器,
+那么在执行此文件时(注意并不是edit_user_3()函数被调用时, 而是在此文件被执行时),
+它会自动地将edit_user_3()函数的引用传给login_required_3()函数, 然后login_required_3()函数返回一个闭包(wrapper()函数),
+再将此闭包(wrapper()函数)赋值给edit_user_3; 所以, 当执行edit_user_3()函数时, 其实执行的是wrapper()函数;
+"""
 edit_user_3()
 add_article_3()
 
