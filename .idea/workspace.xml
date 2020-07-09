@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6a10e62-ca61-4ed6-88ab-782d1e57586e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/19-面向对象进阶/01-dynamic_add_attribute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-面向对象进阶/02-dynamic_add_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-面向对象进阶/03-dynamic_del_attribute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-面向对象进阶/04-__slots__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-面向对象进阶/05-dynamic_create_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-面向对象进阶/06-__class__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19-面向对象进阶/07-metaclass_intro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-面向对象/10-object_old_new_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/10-面向对象/10-object_old_new_class.py" afterDir="false" />
-    </list>
+    <list default="true" id="f6a10e62-ca61-4ed6-88ab-782d1e57586e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -375,6 +366,8 @@
       <workItem from="1594171026533" duration="37000" />
       <workItem from="1594171073377" duration="5692000" />
       <workItem from="1594197077621" duration="7114000" />
+      <workItem from="1594204547748" duration="91000" />
+      <workItem from="1594256644732" duration="325000" />
     </task>
     <servers />
   </component>

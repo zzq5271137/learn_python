@@ -21,8 +21,6 @@ U
 %19-面向对象进阶/04-__slots__.py,4\e\4e1f9c01b01d2ad866784cb163fbfe06e9a4ea3c
 W
 '14-基础知识点补充/04-property.py,0\f\0fc1866ac8a3969d0e758d8c8dd559a47b861c74
-[
-+19-面向对象进阶/05-metaclass_intro.py,4\f\4fb4b6987586d1d3965dfb477d955e5f38cd1924
 Z
 *10-面向对象/11-object_multi_inherit.py,5\5\555c9ab76b02e28638ff219e71eb1e628748e503
 Y
