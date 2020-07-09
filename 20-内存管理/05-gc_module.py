@@ -35,6 +35,8 @@ gc模块常用函数:
    这个函数可以传递参数, generation, 代表回收某些代链表的垃圾对象,
    例如, 传入0代表回收第0代的垃圾对象, 1代表回收第0代和第1代的垃圾对象,
    2代表回收第0、1、2代的垃圾对象; 如果不传参数, 那么默认generation为2;
+   当达到各代链表各自的阈值时, Python就会自动调用gc.collect()函数;
+   当然你也可以手动调用gc.collect()函数, 手动地进行垃圾回收;
 3. gc.get_threshold():
    获取gc模块执行垃圾回收的阈值; 返回一个元组, 元组中下标为i的元素代表第i代的阈值;
 4. gc.set_threshold():
@@ -45,3 +47,31 @@ gc模块常用函数:
    
 注: 一共就只有零代链表、一代链表、二代链表这3个链表
 """
+
+print('阈值: {}'.format(gc.get_threshold()))
+gc.set_threshold(100)
+print('阈值: {}'.format(gc.get_threshold()))
+print('计数: {}'.format(gc.get_count()))
+
+print("################################################")
+
+
+class Person(object):
+    def __init__(self, name):
+        self.name = name
+        self.pointer = None
+
+    def __del__(self):
+        print("%s执行了del函数" % self.name)
+
+
+while True:
+    print('计数: {}'.format(gc.get_count()))
+    p1 = Person('p1')
+    p2 = Person('p2')
+    p1.pointer = p2
+    p2.pointer = p1
+    del p1
+    del p2
+    gc.collect()
+    a = input('test: ')
