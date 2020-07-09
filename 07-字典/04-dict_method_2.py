@@ -18,3 +18,15 @@ dict1 = {"name": "zzq1", "url": "www.baidu.com"}
 print("before setdefault: %s" % str(dict1))
 val = dict1.setdefault("gender", 'male')
 print("after setdefault: %s, the value: %s" % (str(dict1), val))
+
+print("#####################################################")
+
+# items(): 以列表返回可遍历的(key, value)二元元组数组
+print("items()")
+dict2 = {"name": "zzq1", "age": 27, "url": "www.baidu.com"}
+for entry in dict2.items():  # 以元组的下标的形式进行遍历
+    print('%s=%s' % (entry[0], entry[1]), end=', ')
+print()
+for key, value in dict2.items():  # 以元组的解组的形式进行遍历
+    print('%s=%s' % (key, value), end=', ')
+print()
