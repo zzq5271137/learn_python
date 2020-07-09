@@ -371,7 +371,7 @@
       <workItem from="1594204547748" duration="91000" />
       <workItem from="1594256644732" duration="18230000" />
       <workItem from="1594280076073" duration="116000" />
-      <workItem from="1594280257304" duration="33000" />
+      <workItem from="1594280257304" duration="352000" />
     </task>
     <servers />
   </component>
@@ -400,26 +400,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="245" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593920444040" />
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1594280014110">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1594280599701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594280014110" />
-    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1594280014110">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594280599701" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1594280599701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594280014110" />
-    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1594280014110">
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594280599701" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1594280599701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594280014110" />
-    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1594280014110">
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594280599701" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1594280599701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594280014110" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594280599701" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1594280014110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -494,7 +494,7 @@
     <SUITE FILE_PATH="coverage/Learn_Python$02_tuple_operation.coverage" NAME="02-tuple_operation Coverage Results" MODIFIED="1594260667958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-元组" />
     <SUITE FILE_PATH="coverage/Learn_Python$05_return.coverage" NAME="05-return Coverage Results" MODIFIED="1594088307114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17-生成器" />
     <SUITE FILE_PATH="coverage/Learn_Python$03_func_args_2.coverage" NAME="03-func_args_2 Coverage Results" MODIFIED="1594107726838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-函数" />
-    <SUITE FILE_PATH="coverage/Learn_Python$05_gc_module.coverage" NAME="05-gc_module Coverage Results" MODIFIED="1594279795161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20-内存管理" />
+    <SUITE FILE_PATH="coverage/Learn_Python$05_gc_module.coverage" NAME="05-gc_module Coverage Results" MODIFIED="1594280589081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20-内存管理" />
     <SUITE FILE_PATH="coverage/Learn_Python$07_metaclass_intro__1_.coverage" NAME="07-metaclass_intro (1) Coverage Results" MODIFIED="1594204427278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19-面向对象进阶" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_str.coverage" NAME="01-str Coverage Results" MODIFIED="1593153882024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-字符串" />
     <SUITE FILE_PATH="coverage/Learn_Python$04_str_index.coverage" NAME="04-str_index Coverage Results" MODIFIED="1593170022835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-字符串" />

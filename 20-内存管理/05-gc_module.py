@@ -29,7 +29,7 @@ Python中的gc模块封装了许多和对象以及垃圾回收相关的方法;
 """
 gc模块常用函数:
 1. gc.set_debug(flags):
-   设置gc的debug日志级别, 一般设置为gc.DEBUG_LEAK, 可以看到内存泄漏的对象
+   启用gc的debug日志, flags一般设置为gc.DEBUG_LEAK, 可以看到内存泄漏的对象
 2. gc.collect(generation):
    手动执行垃圾回收; 会将那些有循环引用的对象给回收了(即手动触发一次某些代链表的遍历);
    这个函数可以传递参数, generation, 代表回收某些代链表的垃圾对象,
@@ -52,6 +52,7 @@ print('阈值: {}'.format(gc.get_threshold()))
 gc.set_threshold(100)
 print('阈值: {}'.format(gc.get_threshold()))
 print('计数: {}'.format(gc.get_count()))
+gc.set_debug(gc.DEBUG_LEAK)
 
 print("################################################")
 
