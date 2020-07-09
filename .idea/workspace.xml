@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6a10e62-ca61-4ed6-88ab-782d1e57586e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/20-内存管理/04-fix_reference_cycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/20-内存管理/04-python_garbage_collection.py" afterDir="false" />
-    </list>
+    <list default="true" id="f6a10e62-ca61-4ed6-88ab-782d1e57586e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -369,7 +367,7 @@
       <workItem from="1594171073377" duration="5692000" />
       <workItem from="1594197077621" duration="7114000" />
       <workItem from="1594204547748" duration="91000" />
-      <workItem from="1594256644732" duration="15052000" />
+      <workItem from="1594256644732" duration="15095000" />
     </task>
     <servers />
   </component>
