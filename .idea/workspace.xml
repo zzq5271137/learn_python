@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a10e62-ca61-4ed6-88ab-782d1e57586e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/21-魔术方法/01-basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-魔术方法/02-compare_operator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-魔术方法/03-unary_operator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-魔术方法/04-binary_operator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-魔术方法/05-augmented_operator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-魔术方法/06-attribute_access.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-魔术方法/06-attribute_access.py" beforeDir="false" afterPath="$PROJECT_DIR$/21-魔术方法/06-attribute_access.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,7 +374,7 @@
       <workItem from="1594280257304" duration="376000" />
       <workItem from="1594299557632" duration="637000" />
       <workItem from="1594343250898" duration="12873000" />
-      <workItem from="1594361395377" duration="1543000" />
+      <workItem from="1594361395377" duration="2505000" />
     </task>
     <servers />
   </component>
@@ -408,26 +403,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="245" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593920444040" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1594362936882">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1594363900768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594362936882" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1594362936881">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594363900768" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1594363900768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594362936881" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1594362936881">
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594363900768" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1594363900768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594362936881" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1594362936881">
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594363900768" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1594363900768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594362936881" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594363900768" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1594359948997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -562,7 +557,7 @@
     <SUITE FILE_PATH="coverage/Learn_Python$05_func_return.coverage" NAME="05-func_return Coverage Results" MODIFIED="1593530005447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-函数" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_if_statement.coverage" NAME="01-if_statement Coverage Results" MODIFIED="1593051850026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-条件判断" />
     <SUITE FILE_PATH="coverage/Learn_Python$03_str_format.coverage" NAME="03-str_format Coverage Results" MODIFIED="1593155926102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-字符串" />
-    <SUITE FILE_PATH="coverage/Learn_Python$06_attribute_access.coverage" NAME="06-attribute_access Coverage Results" MODIFIED="1594362933672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21-魔术方法" />
+    <SUITE FILE_PATH="coverage/Learn_Python$06_attribute_access.coverage" NAME="06-attribute_access Coverage Results" MODIFIED="1594363893245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21-魔术方法" />
     <SUITE FILE_PATH="coverage/Learn_Python$15_object_new_method.coverage" NAME="15-object_new_method Coverage Results" MODIFIED="1594262636262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-面向对象" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_exception.coverage" NAME="01-exception Coverage Results" MODIFIED="1593583095988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11-异常" />
     <SUITE FILE_PATH="coverage/Learn_Python$my_whatever1.coverage" NAME="my_whatever1 Coverage Results" MODIFIED="1593660213061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-模块和包/my_package/my_inner_package" />

@@ -2,6 +2,8 @@
 控制属性访问的魔术方法
 """
 
+import logging
+
 """
 控制属性访问的魔术方法:
 1. __getattr__(self, item)魔术方法:
@@ -31,8 +33,9 @@ class Person(object):
         return res
 
     def __getattr__(self, item):
-        if item == 'country':
-            return 'China'
+        if item == 'pname':
+            logging.warning('属性名"pname"已经被弃用, 下个版本将不能再使用, 推荐使用"name"')
+            return self.name
         else:
             return None
 
@@ -49,8 +52,8 @@ class Person(object):
 
 
 p1 = Person('zzq')
-print(p1)
-print(p1.name)
-print(p1.country)
+print("p1 = %s" % p1)
+print("p1.name = %s" % p1.name)
+print("p1.pname = %s" % p1.pname)
 p1.age = 27
-print(p1)
+print("p1 = %s" % p1)
