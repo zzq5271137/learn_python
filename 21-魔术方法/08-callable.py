@@ -29,3 +29,25 @@ print(callable(c1))
 print(c1)
 c1(2, 4)
 print(c1)
+
+print("###############################################################")
+
+
+# Flask的视图函数用到了__call__
+def visit_website(view):
+    print(view())
+
+
+def index():
+    return 'index view from function'
+
+
+class IndexView(object):
+    def __call__(self):
+        return 'index view from object'
+
+
+visit_website(index)  # 传进去一个函数
+visit_website(IndexView())  # 传进去一个callable的对象
+
+# 这也是Python鸭子类型的一种体现
