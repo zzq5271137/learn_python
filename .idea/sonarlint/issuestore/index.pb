@@ -93,3 +93,23 @@ X
 (21-魔术方法/05-augmented_operator.py,8\d\8d16aab2ccd9f38a6d1632528f83a81e1e013030
 V
 &21-魔术方法/06-attribute_access.py,4\3\4399ba7fff649a71e023bf3af9297117312a7c99
+M
+04-字符串/02-str_concat.py,e\f\efe9228f88f2d726c53608517536bb02e9d28c78
+L
+04-字符串/05-str_slice.py,b\7\b7a6b794a9f64ea2af9db243d8ab306d09be1d07
+O
+04-字符串/08-str_method_3.py,5\4\548deb59c3815f3ef77b5f53580eaf67568b28ab
+E
+06-元组/01-tuple.py,6\e\6ed954b825631a9d3e8b10debcb53347318f575e
+P
+ 10-面向对象/05-object_del.py,a\f\af90826f380942a14b0545bb6adfe61099a2d299
+Z
+*12-模块和包/loop_reference_1/loop_a.py,0\6\06fa64bc95752e233d7c90e687a7346e789616e6
+Z
+*12-模块和包/loop_reference_1/loop_b.py,c\a\ca0086c50e3787121cddf7c1266cbe3874b7ae54
+\
+,14-基础知识点补充/03-getter_setter.py,f\f\ffe59e203d92c2a13c16d3bb2985a6ad0a1bfccd
+R
+"17-生成器/01-generator_intro.py,c\0\c04230e1d69ebd4b0d2bc9d4c9b89b6681ba87f5
+Q
+!17-生成器/02-my_generator_1.py,d\a\da16402c03e098a79b6361edf4fd35a0ac8a9195
