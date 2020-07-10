@@ -21,4 +21,4 @@ for x in num_generator:
     print(x, end=' ')
 print()
 
-# 使用生成器的第二种方式: 自己定义生成器, 详见02-my_generator.py
+# 使用生成器的第二种方式: 自己定义生成器, 详见: 02-my_generator.py

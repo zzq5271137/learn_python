@@ -34,4 +34,4 @@ t1 = Teacher('zzq', '123')
 
 # 对于旧式类, 这两个打印的不一样
 print(type(t1))  # <type 'instance'> (只要你是一个旧式类, 那么通过type()函数得到的类型都是instance)
-print(t1.__class__)  # __main__.Teacher (__class__属性是自带的属性, 可以拿到当前对象所属的类的引用, 详见19-面向对象进阶)
+print(t1.__class__)  # __main__.Teacher (__class__属性是自带的属性, 可以拿到当前对象所属的类的引用, 详见: 19-面向对象进阶)

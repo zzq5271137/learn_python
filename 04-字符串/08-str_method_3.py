@@ -42,7 +42,7 @@ print(str5.isspace())
 
 print("#################################################")
 
-# format(): 格式化字符串, 详见03-str_format.py
+# format(): 格式化字符串, 详见: 03-str_format.py
 print("format()")
 name = "zzq"
 age = 100

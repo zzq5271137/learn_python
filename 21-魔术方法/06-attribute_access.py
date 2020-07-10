@@ -39,7 +39,7 @@ class Person(object):
         else:
             return None
 
-    def __setattr__(self, key, value):
+    def __setattr__(self, key, value):  # 其实也可以通过property装饰器来完成, 详见: 14-基础知识点补充/04-property.py
         if key == 'age':
             if value >= 18:
                 self.__dict__['is_adult'] = True

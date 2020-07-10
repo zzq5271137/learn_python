@@ -31,7 +31,7 @@ foo_instance = Foo()
 print(foo_instance.__class__)  # <class '__main__.Foo'>
 
 # 对于以上任意一个__class__的__class__又是什么呢？是"<class 'type'>"; 为什么呢？
-# 因为, __class__拿到的是当前对象所属的类的引用(详见06-__class__.py), 所以,
+# 因为, __class__拿到的是当前对象所属的类的引用(详见: 06-__class__.py), 所以,
 # foo_instance.__class__返回的就是Foo类, 而Foo.__class__自然就是type,
 # 因为type是Python的内建元类, 是它创建的Foo类对象;
 print(a.__class__.__class__)
