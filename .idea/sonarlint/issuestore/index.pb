@@ -113,3 +113,25 @@ R
 "17-生成器/01-generator_intro.py,c\0\c04230e1d69ebd4b0d2bc9d4c9b89b6681ba87f5
 Q
 !17-生成器/02-my_generator_1.py,d\a\da16402c03e098a79b6361edf4fd35a0ac8a9195
+Q
+!21-魔术方法/07-my_sequence.py,6\9\6945805f1128bf240bd3d6f11567b2a39133f5a8
+N
+21-魔术方法/08-callable.py,4\c\4c56b60cbe3974fa616658b5bd3419476a5acfb1
+J
+21-魔术方法/09-with.py,7\4\74c463ea0fdc1cbe8b51e228336b5834434488bf
+P
+ 09-文件基础/01-file_basic.py,d\c\dcf9acb08732ad223dc35cea097a6c5270fbdb45
+O
+09-文件基础/03-file_read.py,0\4\044d35febe63977026fa4e0a118edb65419ba0be
+K
+21-魔术方法/09-with.txt,0\c\0cbf929a3a77334d6d426c4c6f0603dd43ed36f8
+O
+09-文件基础/06-file_with.py,8\f\8fb2cdb5c994bd7c83f65414fd28b76c0b2ce756
+U
+%21-魔术方法/10-pickle_01_data.pkl,8\7\876d7f6197e3ad33061a3db4db6438b918b3dfd0
+O
+21-魔术方法/10-pickle_01.py,3\e\3ec86af78ba3eb5dae890b5f0e685cd7d3df0698
+O
+21-魔术方法/11-pickle_02.py,b\e\be2ecf53be4c78ba18b879cbb55fb31770090f32
+U
+%21-魔术方法/11-pickle_02_data.pkl,6\2\6235dca219388d92a9ff783f94285f69df233796
