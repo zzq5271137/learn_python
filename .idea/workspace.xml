@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a10e62-ca61-4ed6-88ab-782d1e57586e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/21-魔术方法/09-with.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-魔术方法/09-with.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-魔术方法/10-pickle_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-魔术方法/10-pickle_01_data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-魔术方法/11-pickle_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21-魔术方法/11-pickle_02_data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-多任务编程/01-基础/01-intro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-多任务编程/01-多进程编程基础/02-multiprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/25-多任务编程/01-基础/01-intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/25-多任务编程/01-多进程编程基础/01-intro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,7 @@
       <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.11-pickle_02">
+  <component name="RunManager" selected="Python.02-multiprocessing">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
@@ -180,7 +175,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="08-callable" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02-multiprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learn_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,12 +183,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21-魔术方法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/25-多任务编程/01-多进程编程基础" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21-魔术方法/08-callable.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/25-多任务编程/01-多进程编程基础/02-multiprocessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,19 +286,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.08-callable" />
       <item itemvalue="Python.09-with" />
       <item itemvalue="Python.10-pickle_01" />
       <item itemvalue="Python.10-pickle_01 (1)" />
       <item itemvalue="Python.11-pickle_02" />
+      <item itemvalue="Python.02-multiprocessing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02-multiprocessing" />
         <item itemvalue="Python.11-pickle_02" />
         <item itemvalue="Python.10-pickle_01 (1)" />
         <item itemvalue="Python.10-pickle_01" />
         <item itemvalue="Python.09-with" />
-        <item itemvalue="Python.08-callable" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +387,7 @@
       <workItem from="1594525840119" duration="7133000" />
       <workItem from="1594557430471" duration="6135000" />
       <workItem from="1594569889971" duration="2229000" />
-      <workItem from="1594601289841" duration="2282000" />
+      <workItem from="1594601289841" duration="4128000" />
     </task>
     <servers />
   </component>
@@ -421,26 +416,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="245" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593920444040" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1594573684064">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1594610076863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594573684064" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1594573684063">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594610076863" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1594610076862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594573684063" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1594573684063">
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594610076862" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1594610076862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594573684063" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1594573684064">
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594610076862" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1594610076862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594573684064" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594610076862" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1594566815080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -516,6 +511,7 @@
     <SUITE FILE_PATH="coverage/Learn_Python$16_object_singleton.coverage" NAME="16-object_singleton Coverage Results" MODIFIED="1593575576600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-面向对象" />
     <SUITE FILE_PATH="coverage/Learn_Python$loop_b__1_.coverage" NAME="loop_b (1) Coverage Results" MODIFIED="1593683122164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-模块和包/loop_reference_2" />
     <SUITE FILE_PATH="coverage/Learn_Python$my_request.coverage" NAME="my_request Coverage Results" MODIFIED="1593659656474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-模块和包/my_package" />
+    <SUITE FILE_PATH="coverage/Learn_Python$02_multiprocessing.coverage" NAME="02-multiprocessing Coverage Results" MODIFIED="1594605610832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25-多任务编程/01-多进程编程基础" />
     <SUITE FILE_PATH="coverage/Learn_Python$03_dynamic_del_attr_meth.coverage" NAME="03-dynamic_del_attr_meth Coverage Results" MODIFIED="1594174460916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19-面向对象进阶" />
     <SUITE FILE_PATH="coverage/Learn_Python$05_str_splice.coverage" NAME="05-str_splice Coverage Results" MODIFIED="1593171074071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-字符串" />
     <SUITE FILE_PATH="coverage/Learn_Python$07___name__.coverage" NAME="07-__name__ Coverage Results" MODIFIED="1593695434937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-模块和包" />

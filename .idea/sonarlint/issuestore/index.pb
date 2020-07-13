@@ -135,3 +135,7 @@ O
 21-魔术方法/11-pickle_02.py,b\e\be2ecf53be4c78ba18b879cbb55fb31770090f32
 U
 %21-魔术方法/11-pickle_02_data.pkl,6\2\6235dca219388d92a9ff783f94285f69df233796
+g
+725-多任务编程/01-多进程编程基础/01-intro.py,5\4\544c24b1013ae2294776f7d2073893bcfb6e516c
+q
+A25-多任务编程/01-多进程编程基础/02-multiprocessing.py,6\4\642fb1c93bd9f9701e376d8de5655cf1703fb587
