@@ -1,0 +1,21 @@
+<root>
+    <products>
+        <product uuid="up0001">
+            <id>p0001</id>
+            <name>product_01</name>
+            <price>10000</price>
+        </product>
+
+        <product uuid="up0002">
+            <id>p0002</id>
+            <name>product_02</name>
+            <price>20000</price>
+        </product>
+
+        <product uuid="up0003">
+            <id>p0003</id>
+            <name>product_03</name>
+            <price>30000</price>
+        </product>
+    </products>
+</root>

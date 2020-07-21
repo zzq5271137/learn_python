@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<people>
+    <item type="str">Class 01</item>
+    <item type="int">3</item>
+    <item type="dict">
+        <name type="str">挣命1</name>
+        <age type="int">27</age>
+        <salary type="int">15000</salary>
+    </item>
+    <item type="dict">
+        <name type="str">挣命2</name>
+        <age type="int">28</age>
+        <salary type="int">25000</salary>
+    </item>
+    <item type="dict">
+        <name type="str">挣命3</name>
+        <age type="int">29</age>
+        <salary type="int">35000</salary>
+    </item>
+</people>

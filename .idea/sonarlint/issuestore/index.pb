@@ -157,3 +157,17 @@ S
 ,22-正则表达式/02-match_one_character.py,3\6\363b482bff2ebe9e9bab956a09c3308443fdcdc1
 K
 22-正则表达式/08-re.py,8\c\8c2f45ccab435c2621a4fba0f61bd481104ac210
+K
+16-迭代器/02-iterator.py,f\7\f790cbfe57cf85bedb3d6e3852bed82439074c6d
+Y
+)23-数据存储/01-XML/files/products.xml,5\d\5d6dd9052a4b0549e5ea7f114569e171199fac22
+T
+$04-字符串/11-str_encode_decode.py,0\a\0a8b5a71a160497bb80cf4c971c2fefd0e60ab05
+W
+'23-数据存储/01-XML/files/people.xml,b\1\b1a9fb75b76e6eefbdd8b6e52346879abb71fc72
+U
+%23-数据存储/01-XML/01-read_XML.py,5\a\5ae6c4d6d68fd775f935b381745573a126f2bc62
+X
+(23-数据存储/01-XML/02-dict_to_XML.py,4\0\40ad1c54e055f47263a84f594e10af630690fc9d
+X
+(23-数据存储/01-XML/03-XML_to_dict.py,a\6\a68ccb17ef75f43e66062b8425e12ddafcf80131

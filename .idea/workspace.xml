@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a10e62-ca61-4ed6-88ab-782d1e57586e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/22-正则表达式/01-intro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22-正则表达式/02-match_one_character.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22-正则表达式/03-match_multiple_characters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22-正则表达式/04-start_end_or.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22-正则表达式/05-greedy_lazy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22-正则表达式/06-demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22-正则表达式/07-escape_raw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22-正则表达式/08-re.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23-数据存储/01-XML/01-read_XML.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23-数据存储/01-XML/02-dict_to_XML.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23-数据存储/01-XML/03-XML_to_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23-数据存储/01-XML/files/people.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23-数据存储/01-XML/files/products.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23-数据存储/02-JSON/01-dict_to_JSON.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/22-正则表达式" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/23-数据存储/01-XML" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -62,21 +60,21 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\PyCharm_workspace\Learn_Python\22-正则表达式" />
-      <recent name="H:\PyCharm_workspace\Learn_Python\17-生成器" />
-      <recent name="H:\PyCharm_workspace\Learn_Python\16-迭代器" />
-      <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包" />
-      <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包\loop_reference" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\PyCharm_workspace\Learn_Python\22-多任务编程\01-基础" />
       <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包\my_package\my_inner_package" />
       <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包\my_package" />
       <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\PyCharm_workspace\Learn_Python\23-数据存储\01-XML" />
+      <recent name="H:\PyCharm_workspace\Learn_Python\22-正则表达式" />
+      <recent name="H:\PyCharm_workspace\Learn_Python\17-生成器" />
+      <recent name="H:\PyCharm_workspace\Learn_Python\16-迭代器" />
+      <recent name="H:\PyCharm_workspace\Learn_Python\12-模块和包" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.08-re">
+  <component name="RunManager" selected="Python.01-list_generator">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
@@ -181,7 +179,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="02-multiprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="01-list_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learn_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,12 +187,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/25-多任务编程/01-多进程编程基础" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14-基础知识点补充" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/25-多任务编程/01-多进程编程基础/02-multiprocessing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14-基础知识点补充/01-list_generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,7 +201,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04-start_end_or" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="01-read_XML" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learn_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,12 +209,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/22-正则表达式" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23-数据存储/01-XML" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/22-正则表达式/04-start_end_or.py" />
+      <option name="SCRIPT_NAME" value="H:\PyCharm_workspace\Learn_Python\23-数据存储\01-XML\01-read_XML.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,7 +223,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="07-escape_raw (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02-dict_to_XML" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learn_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,12 +231,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/22-正则表达式" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23-数据存储/01-XML" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/22-正则表达式/07-escape_raw.py" />
+      <option name="SCRIPT_NAME" value="H:\PyCharm_workspace\Learn_Python\23-数据存储\01-XML\02-dict_to_XML.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +245,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="07-escape_raw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03-XML_to_dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Learn_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,12 +253,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/22-正则表达式" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23-数据存储/01-XML" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="H:\PyCharm_workspace\Learn_Python\22-正则表达式\07-escape_raw.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23-数据存储/01-XML/03-XML_to_dict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,19 +290,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.07-escape_raw" />
-      <item itemvalue="Python.07-escape_raw (1)" />
-      <item itemvalue="Python.02-multiprocessing" />
       <item itemvalue="Python.08-re" />
-      <item itemvalue="Python.04-start_end_or" />
+      <item itemvalue="Python.01-read_XML" />
+      <item itemvalue="Python.02-dict_to_XML" />
+      <item itemvalue="Python.03-XML_to_dict" />
+      <item itemvalue="Python.01-list_generator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01-list_generator" />
+        <item itemvalue="Python.03-XML_to_dict" />
+        <item itemvalue="Python.02-dict_to_XML" />
+        <item itemvalue="Python.01-read_XML" />
         <item itemvalue="Python.08-re" />
-        <item itemvalue="Python.04-start_end_or" />
-        <item itemvalue="Python.02-multiprocessing" />
-        <item itemvalue="Python.07-escape_raw (1)" />
-        <item itemvalue="Python.07-escape_raw" />
       </list>
     </recent_temporary>
   </component>
@@ -398,6 +396,10 @@
       <workItem from="1594887324501" duration="8134000" />
       <workItem from="1594910569981" duration="4458000" />
       <workItem from="1594949289741" duration="4881000" />
+      <workItem from="1595041259722" duration="698000" />
+      <workItem from="1595221243157" duration="1997000" />
+      <workItem from="1595234012033" duration="5980000" />
+      <workItem from="1595297572287" duration="3958000" />
     </task>
     <servers />
   </component>
@@ -426,26 +428,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="245" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593920444040" />
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1594954802296">
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1595303878812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594954802296" />
-    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1594954802296">
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595303878812" />
+    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1595303878810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594954802296" />
-    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1594954802296">
+    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595303878810" />
+    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1595303878810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594954802296" />
-    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1594954802296">
+    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595303878810" />
+    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1595303878810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593236446723" />
-    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594954802296" />
+    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595303878810" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1594954802297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -466,11 +468,11 @@
     </state>
     <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593096129754" />
     <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594954802297" />
-    <state x="273" y="60" width="1226" height="883" key="SettingsEditor" timestamp="1594369351745">
+    <state x="285" y="89" width="1226" height="883" key="SettingsEditor" timestamp="1595236082304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="236" y="30" width="1129" height="759" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592644679307" />
-    <state x="273" y="60" width="1226" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594369351745" />
+    <state x="285" y="89" width="1226" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595236082304" />
     <state x="332" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593864133115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -479,11 +481,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" width="1584" height="1000" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1594359777794" />
-    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1594553405465">
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1595236653138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591892426092" />
-    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594553405465" />
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595236653138" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Learn_Python$10_func_lambda.coverage" NAME="10-func_lambda Coverage Results" MODIFIED="1593396867215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-函数" />
@@ -596,6 +598,7 @@
     <SUITE FILE_PATH="coverage/Learn_Python$01_exception.coverage" NAME="01-exception Coverage Results" MODIFIED="1593583095988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11-异常" />
     <SUITE FILE_PATH="coverage/Learn_Python$my_whatever1.coverage" NAME="my_whatever1 Coverage Results" MODIFIED="1593660213061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-模块和包/my_package/my_inner_package" />
     <SUITE FILE_PATH="coverage/Learn_Python$15_object_singleton.coverage" NAME="15-object_singleton Coverage Results" MODIFIED="1593566905767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-面向对象" />
+    <SUITE FILE_PATH="coverage/Learn_Python$01_list_generator.coverage" NAME="01-list_generator Coverage Results" MODIFIED="1595303875599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14-基础知识点补充" />
     <SUITE FILE_PATH="coverage/Learn_Python$02_while_demo.coverage" NAME="02-while_demo Coverage Results" MODIFIED="1593092348554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-循环" />
     <SUITE FILE_PATH="coverage/Learn_Python$05_import_principle.coverage" NAME="05-import_principle Coverage Results" MODIFIED="1593681692329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-模块和包" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_Iterable__1_.coverage" NAME="01-Iterable (1) Coverage Results" MODIFIED="1593953491174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16-迭代器" />
@@ -610,6 +613,7 @@
     <SUITE FILE_PATH="coverage/Learn_Python$01_tuple.coverage" NAME="01-tuple Coverage Results" MODIFIED="1593325159346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-元组" />
     <SUITE FILE_PATH="coverage/Learn_Python$loop_a__1_.coverage" NAME="loop_a (1) Coverage Results" MODIFIED="1593681226143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12-模块和包/loop_reference_1" />
     <SUITE FILE_PATH="coverage/Learn_Python$08_decorator_demo.coverage" NAME="08-decorator_demo Coverage Results" MODIFIED="1594133140164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/18-装饰器" />
+    <SUITE FILE_PATH="coverage/Learn_Python$02_XML_02.coverage" NAME="02-XML_02 Coverage Results" MODIFIED="1595246021723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/23-数据存储/01-XML" />
     <SUITE FILE_PATH="coverage/Learn_Python$04_while_demo_3.coverage" NAME="04-while_demo_3 Coverage Results" MODIFIED="1593093805125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-循环" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_list_generation_formula__1_.coverage" NAME="01-list_generation_formula (1) Coverage Results" MODIFIED="1593700173274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14-知识点补充" />
     <SUITE FILE_PATH="coverage/Learn_Python$09_func_sort_advanced__1_.coverage" NAME="09-func_sort_advanced (1) Coverage Results" MODIFIED="1593396698093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-函数" />
@@ -640,6 +644,7 @@
     <SUITE FILE_PATH="coverage/Learn_Python$03_getter_setter.coverage" NAME="03-getter_setter Coverage Results" MODIFIED="1593838802466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14-基础知识点补充" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_iterator_Iterable_intro__1_.coverage" NAME="01-iterator_Iterable_intro (1) Coverage Results" MODIFIED="1593950278765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16-迭代器" />
     <SUITE FILE_PATH="coverage/Learn_Python$02_str_concat.coverage" NAME="02-str_concat Coverage Results" MODIFIED="1593154522574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-字符串" />
+    <SUITE FILE_PATH="coverage/Learn_Python$01_XML.coverage" NAME="01-XML Coverage Results" MODIFIED="1595222292278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/23-数据存储/01-XML" />
     <SUITE FILE_PATH="coverage/Learn_Python$03_regular_expression_02.coverage" NAME="03-regular_expression_02 Coverage Results" MODIFIED="1594893008076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22-正则表达式" />
     <SUITE FILE_PATH="coverage/Learn_Python$12_object_class_attribute.coverage" NAME="12-object_class_attribute Coverage Results" MODIFIED="1593510607019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-面向对象" />
     <SUITE FILE_PATH="coverage/Learn_Python$01_exception_1__1_.coverage" NAME="01-exception_1 (1) Coverage Results" MODIFIED="1593585375289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11-异常" />
@@ -663,6 +668,7 @@
     <SUITE FILE_PATH="coverage/Learn_Python$11_func_lambda_practise.coverage" NAME="11-func_lambda_practise Coverage Results" MODIFIED="1593399922050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-函数" />
     <SUITE FILE_PATH="coverage/Learn_Python$05_dict_traverse.coverage" NAME="05-dict_traverse Coverage Results" MODIFIED="1593333303960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-字典" />
     <SUITE FILE_PATH="coverage/Learn_Python$05_metaclass_intro.coverage" NAME="05-metaclass_intro Coverage Results" MODIFIED="1594200037438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19-面向对象进阶" />
+    <SUITE FILE_PATH="coverage/Learn_Python$03_XML_to_dict.coverage" NAME="03-XML_to_dict Coverage Results" MODIFIED="1595303614929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/23-数据存储/01-XML" />
     <SUITE FILE_PATH="coverage/Learn_Python$06_continue.coverage" NAME="06-continue Coverage Results" MODIFIED="1593094709584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-循环" />
     <SUITE FILE_PATH="coverage/Learn_Python$03_my_iterable_iterator.coverage" NAME="03-my_iterable_iterator Coverage Results" MODIFIED="1593956736326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16-迭代器" />
     <SUITE FILE_PATH="coverage/Learn_Python$06_metaclass_intro.coverage" NAME="06-metaclass_intro Coverage Results" MODIFIED="1594203420472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19-面向对象进阶" />
