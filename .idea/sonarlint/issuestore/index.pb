@@ -219,3 +219,21 @@ M
 04-字符串/03-str_format.py,d\2\d23aa992ad9116b1875d97e8cab4f708384090fe
 L
 04-字符串/04-str_index.py,5\c\5c742ca8afb234379c8ca29cb6dba3213cb32a49
+E
+04-字符串/test.txt,2\6\26005c1216f67afda11f6042d82ccd190b6fbb41
+K
+08-函数/02-func_args_1.py,9\9\991cb89f2a770f25f80992d6c75afe97d9a1605b
+K
+08-函数/03-func_args_2.py,e\1\e19ca24c37f570bad7cb9e255b2024ba1e6a6f4d
+K
+08-函数/04-func_args_3.py,e\3\e3b5b97e24873d861acde40a56fc6d4e82a1c226
+K
+08-函数/05-func_return.py,5\e\5e2dbe067b340ae64ed62d4a92d347ffddaa532c
+J
+08-函数/06-func_scope.py,d\9\d960023178591cec45922a3f2040e85ce57341ef
+Q
+!08-函数/07-func_scope_global.py,7\8\78a073c05ba4101dc7b5a7eb6b902d58670e8ff8
+T
+$08-函数/08-func_scope_changable.py,0\1\014a040e26096effdf6606fcc8fe94e8a01dee7d
+D
+08-函数/01-func.py,0\5\05b548d05652c957ac1d85197c921ea8044a0732
