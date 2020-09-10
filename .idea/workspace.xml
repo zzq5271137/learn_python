@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6a10e62-ca61-4ed6-88ab-782d1e57586e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04-字符串/test.txt" afterDir="false" />
-    </list>
+    <list default="true" id="f6a10e62-ca61-4ed6-88ab-782d1e57586e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +43,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/23-数据存储/01-XML" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -408,6 +409,9 @@
       <workItem from="1597381519366" duration="16796000" />
       <workItem from="1597482255842" duration="599000" />
       <workItem from="1597718016206" duration="326000" />
+      <workItem from="1598184294673" duration="18000" />
+      <workItem from="1598284801033" duration="17000" />
+      <workItem from="1598601965604" duration="3498000" />
     </task>
     <servers />
   </component>
