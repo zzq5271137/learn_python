@@ -19,3 +19,9 @@ print(greet)
 greet = "My name is {arg1}, my age is {arg2}, and my score is {arg3}.".format(arg3=score, arg1=name,
                                                                               arg2=age)
 print(greet)
+
+print("##############################################")
+
+# 使用 f-string
+greet = f'My name is {name}, my age is {age}, and my score is {score}'
+print(greet)
