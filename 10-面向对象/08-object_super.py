@@ -48,7 +48,7 @@ class Person(object):
 
 
 class Student(Person):
-    def __init__(self, name, age, studentid, pet):
+    def __init__(self, name, age, studentid, pet: Dog):
         super().__init__(name, age)  # 调用父类的构造方法
         self.studentid = studentid
         self.pet = pet
