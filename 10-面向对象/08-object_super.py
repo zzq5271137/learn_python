@@ -18,7 +18,12 @@ super(type, object), 其中:
    如果调用本类父类的方法, 一般是self; 
    如果不是调用本类父类的方法, 例如调用本对象中的某个属性(该属性为一个对象)的父类的方法, 则需要填入那个相关属性,
    而且上面的type参数要填该属性的类;
+   
 Python3和Python2的一个区别是, 如果是调用本类父类的方法, Python3可以使用直接使用super().xxx代替super(Class, self).xxx;
+
+注意: 使用"super().xxx"或者"super(Class, self).xxx"调用父类的实例方法时, 不用传递self; 
+而使用"父类名.xxx"调用父类实例方法时, 必须传递self;
+详见: 10-object_old_new_class 和 11-object_multi_inherit
 """
 
 
